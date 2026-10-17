@@ -1,6 +1,7 @@
-## ⏱️ WakaTime Stats
+
 
 <!--START_SECTION:waka-->
+## ⏱️ WakaTime Stats
 <!--END_SECTION:waka-->
 
 <!--
