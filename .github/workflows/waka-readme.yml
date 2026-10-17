@@ -1,20 +1,34 @@
 
-name: WakaTime Stats
+name: Generate WakaTime Chart
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "17 0 * * *"
+
+permissions:
+  contents: write
 
 jobs:
-  update-readme:
+  generate-chart:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: athul/waka-readme@master
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
+          python-version: "3.x"
+
+      - name: Generate SVG chart
+        env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          TIME_RANGE: last_7_days
-          LANG_COUNT: 8
+        run: python scripts/generate_wakatime.py
+
+      - name: Commit updated chart
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update WakaTime chart"
+          file_pattern: assets/wakatime.svg
