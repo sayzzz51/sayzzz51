@@ -18,6 +18,12 @@ request = urllib.request.Request(
 
 with urllib.request.urlopen(request, timeout=30) as response:
     stats = json.loads(response.read().decode())["data"]
+    print("TOTAL:", stats.get("human_readable_total"))
+print("DAILY AVERAGE:", stats.get("human_readable_daily_average"))
+print("RANGE:", stats.get("start"), stats.get("end"))
+print("LANGUAGES:")
+for lang in stats.get("languages", []):
+    print(lang.get("name"), lang.get("text"), lang.get("total_seconds"))
 
 languages = sorted(
     stats.get("languages", []),
