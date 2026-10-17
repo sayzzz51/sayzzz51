@@ -1,7 +1,9 @@
 
 
 <!--START_SECTION:waka-->
+## ⏱️ Coding Activity
 
+![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=sayzzz51&theme=tokyonight&layout=compact)
 ```txt
 From: 09 October 2026 - To: 16 October 2026
 
