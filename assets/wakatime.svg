@@ -13,7 +13,7 @@
 </text>
 <text x="652" y="43" text-anchor="end" fill="#9ece6a"
  font-family="Arial,sans-serif" font-size="15">
-  2 hrs 12 mins
+  4 hrs 23 mins
 </text>
 <line x1="28" y1="84" x2="652" y2="84" stroke="#414868"/>
 
@@ -21,28 +21,28 @@
  font-family="Arial,sans-serif" font-size="13">JavaScript</text>
 <rect x="190" y="104" width="350" height="12"
  rx="6" fill="#292e42"/>
-<rect x="190" y="104" width="243.95" height="12"
+<rect x="190" y="104" width="259.18" height="12"
  rx="6" fill="#7aa2f7"/>
 <text x="650" y="116" text-anchor="end" fill="#a9b1d6"
- font-family="Arial,sans-serif" font-size="12">69.7%</text>
+ font-family="Arial,sans-serif" font-size="12">74.0%</text>
 
 <text x="28" y="146" fill="#c0caf5"
  font-family="Arial,sans-serif" font-size="13">HTML</text>
 <rect x="190" y="134" width="350" height="12"
  rx="6" fill="#292e42"/>
-<rect x="190" y="134" width="88.76" height="12"
+<rect x="190" y="134" width="53.45" height="12"
  rx="6" fill="#bb9af7"/>
 <text x="650" y="146" text-anchor="end" fill="#a9b1d6"
- font-family="Arial,sans-serif" font-size="12">25.4%</text>
+ font-family="Arial,sans-serif" font-size="12">15.3%</text>
 
 <text x="28" y="176" fill="#c0caf5"
  font-family="Arial,sans-serif" font-size="13">CSS</text>
 <rect x="190" y="164" width="350" height="12"
  rx="6" fill="#292e42"/>
-<rect x="190" y="164" width="17.29" height="12"
+<rect x="190" y="164" width="37.38" height="12"
  rx="6" fill="#7dcfff"/>
 <text x="650" y="176" text-anchor="end" fill="#a9b1d6"
- font-family="Arial,sans-serif" font-size="12">4.9%</text>
+ font-family="Arial,sans-serif" font-size="12">10.7%</text>
 <text x="28" y="282" fill="#565f89"
  font-family="Arial,sans-serif" font-size="11">
   Powered by WakaTime
